@@ -1,0 +1,13 @@
+.Spinner {
+  display: flex;
+  justify-content: center;
+  position: center;
+  margin-top: 200px;
+}
+
+.news-spinner {
+  display: flex;
+  justify-content: center;
+  position: center;
+  margin-top: 200px;
+}
