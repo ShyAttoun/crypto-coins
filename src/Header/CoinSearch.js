@@ -4,7 +4,6 @@ import Coin from '../components/Coin'
 import '../style/CoinSearch.css'
 
 const CoinSearch = ({ liked, handleSetLiked, coins }) => {
-  console.log('blalbblala')
   const [search, setSearch] = useState('')
 
   const handleChange = (e) => {

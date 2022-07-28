@@ -5,11 +5,9 @@ import '../style/Spinner.css'
 import Spinner from '../components/Spinner'
 
 const MyCoins = ({ liked, handleResetLiked, coins }) => {
-  console.log('my coinssss')
   const newArray = liked
   const [listIsEmpty, setListIsEmpty] = useState(true)
 
-  // console.log('coins are:', coins);
   useEffect(() => {
     if (liked.length != 0) {
       setListIsEmpty(false)

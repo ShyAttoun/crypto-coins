@@ -51,5 +51,3 @@ const NewsList = () => {
 }
 
 export default NewsList
-
-//e4d5d0536ea74d5491a6deb5571d0e5c

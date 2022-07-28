@@ -3,7 +3,7 @@ import '../style/NewsItem.css'
 
 const NewsItem = ({ title, description, link, image_url }) => {
   console.log('image url is', image_url)
-  // console.log('asdsadsad');
+
   function altImage() {
     return new Promise((resolve, reject) => {
       const randImage = [
