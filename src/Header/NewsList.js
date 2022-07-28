@@ -12,7 +12,7 @@ const NewsList = () => {
   useEffect(() => {
     axios
       .get(
-        `https://newsdata.io/api/1/news?apikey=pub_9500676217595b7d48129b0a91a82baabf65&q=crypto&country=il,us`,
+        `https://newsdata.io/api/1/news?apikey={YOUR_API}&q=crypto&country=il,us`,
       )
       .then((res) => {
         setIsLoading(false)
